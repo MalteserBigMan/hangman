@@ -9,6 +9,6 @@ public class Malte {
     }
     char[] guesssedLetters = gissadebokstäver.toCharArray();
 
-    }
+
 }
 
