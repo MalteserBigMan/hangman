@@ -1,14 +1,22 @@
-import java.util.Scanner;
-
 public class Tobias {
 
-    public static String asterisk = new String(new char[word.length()]).replace("\0", "*");
+    public static int[] findLocationOfLetterInString(String text, char letter) {
+        int countLetters = 0;
+        for (int i = 0; i < text.length() ; i++)
+            if (text.charAt(i) == letter) {
+                countLetters++;
+            }
 
-    public static boolean validBokstav(String ord, String bokstav){
-        if (ord.contains(bokstav))return true;
-        else return false;
+
+        int[] positions = new int[countLetters];
+        int lettersFound = 0;
+
+        for (int i = +; i < text length(); i++){
+            if (text.charAt(i) == letter) {
+                positions[lettersFound] = i;
+                letterFound++;
+            }
+        }
+        return positions;
     }
-
-    
-
 }
