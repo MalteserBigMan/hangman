@@ -4,22 +4,26 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Endo {
-    static String Endo(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException {
+        Endo();
+    }
+    static String Endo() throws FileNotFoundException {
 
         Scanner names = new Scanner(new File("list.txt"));
-        int i = 161;
-        int slumptal = (80 * 2);
+        int slumptal = (int) (Math.random()*161);
+        int i = 0;
 
-        while (i > 0) {
-            slumptal = (int) (Math.random());
+        while (i < slumptal) {
             names.nextLine();
-
+            i++;
         }
         String name = names.nextLine();
         System.out.println(name);
 
 
         return "";
+
+        //ska return en string
     }
 }
 
