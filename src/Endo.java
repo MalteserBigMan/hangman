@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.List;
@@ -21,18 +22,10 @@ public class Endo {
         System.out.println(name);
 
 
-        return "";
+        return name;
+
+
 
         //ska return en string
     }
 }
-
-
-
-
-
-
-
-
-
-

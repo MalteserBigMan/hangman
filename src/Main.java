@@ -3,8 +3,8 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
-    public static void Main(String[] args) {
-
+    public static void Main(String[] args) throws FileNotFoundException {
+        Endo.Endo();
 
     }
 }

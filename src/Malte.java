@@ -12,8 +12,8 @@ public class Malte {
     }
 
     public static String galgbacke() {
-        ´if(fel==1||fel==2||fel);
-
+        //if(fel==1||fel==2||fel);
+return null;
     }
 
 }

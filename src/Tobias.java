@@ -11,10 +11,10 @@ public class Tobias {
         int[] positions = new int[countLetters];
         int lettersFound = 0;
 
-        for (int i = +; i < text length(); i++){
+        for (int i = 0; i < text.length(); i++){
             if (text.charAt(i) == letter) {
                 positions[lettersFound] = i;
-                letterFound++;
+                lettersFound++;
             }
         }
         return positions;
