@@ -1,0 +1,46 @@
+Hänga Gubbe
+- Endo 2023-0224
+
+
+* Inledning
+
+Syftet och målet med denna projekt var att skapa en fungerande kod för hänga gubbe.
+Vi delade upp koden för var för sig.
+Så jag tog till exempel på mi ansvaret för att koda en fungerande kod för att läsa av listan med namn.
+Och så skulle den välja en slumpmässig ord/namn. Problemen som fanns innan jag började var att få den att läsa in listan
+och en loop som valde en slumpmässig namn med hjälp av en variable.
+
+* Bakgrund
+
+Så vi hade en ide vilket underlättade arbetet för mig vilket var att vi skulle använda League of legends gubbar.
+Så för mig så var det bara att söka upp en lista på internet med alla namn och renskriva listan i koden. Det tog dock en liten stund.
+Sedan behövde ju listan läsas in, vilket hade nämnts från lektioner innan så jag valde den metoden för det var den enda ag visste om.
+Metoden var att lägga till en scanner och scanna list.txt.
+
+Nästa steg var att använda listan som läst in och använda den för att välja ut ett ord.
+Jag visste inte hur jag skulle börja så jag frågade om hjälp med ideen jag hade var att på något sätt använda antalet ord och använda math random
+i en while loop så att den fortsätter tills antalet är slut. Jag fick hjälp och metoden kom ut rätt bra.
+Så "slumptal" blev en int där math.random * 161 (antalet namn)
+Sedan så sattes det in i en WHILE loop och så länge som "slumptal" var > 0 så skulle den fortsätta.
+I WHILE loopen så läste den in ett ord och ökad med +1.
+
+Sedan så blev det en string som skrevs ut och som kan användas vidare.
+
+* Positiva erfarenheter
+
+Det som gick rätt bra utan någon vidare problem vara att fixa listan, läsa in den och göra int.
+Läsa in lista var bara något man kommer ihåg så till nästa gång jag behöver det så borde det inte bli ett problem.
+
+
+* Negativa erfarenheter
+
+Det var lite jobbigt det här med main och att test köra koden. Först så kunde man inte testköra för att programmet läste
+in alla koder så om t. ex Malte hade fel i sin kod så kunde jag inte köra. Allt det här med public class när man har en collab var lite små drygt.
+Men jag tänker att det är första gången vi gör det här och man lär sig för framtida projekt.
+Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
+
+* Sammanfattning
+
+Så jag tycker att projekten är inte rätt klar men om vi hade fortsatt så hade vi nog kunna få till det.
+Erfarenhetena jag tar med är att jag måste fortsätta träna med while loop men annars så var det andra inte så super komplicerat.
+Det hade kanske funnits något mer effektivt sätt och att göra denna kod?
