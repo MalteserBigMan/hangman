@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+
+import java.util.List;
 
 public class Malte {
     private static String gissadebokstäver = "";
@@ -107,7 +108,5 @@ public class Malte {
             System.out.println(" ___________");
             System.out.println("/           \\");
         }
-
-
     }
 }
